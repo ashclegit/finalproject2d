@@ -1,0 +1,288 @@
+<?xml version = "1.0"?>
+<GameData>
+<!-- screenTitle is also used to identify you and your animation. 
+     So make sure to include your name as part of the screenTitle -->
+<title>Beerus - The God of Destruction</title>
+<maxStringSize>50</maxStringSize>
+
+<frameCapOn>true</frameCapOn>
+<period>17</period>
+
+<maxFrames>1800</maxFrames>
+<username>aashwin</username>
+
+<view>
+  <width>854</width>
+  <height>480</height>
+</view>
+
+<world>
+  <width>2600</width>
+  <height>480</height>
+</world>
+
+<snowhill>
+  <file>assets/space/snowhillfull.png</file>
+  <factor>1</factor>
+  <transparency>true</transparency>
+</snowhill>
+
+<trees>
+  <file>assets/space/treesfull.png</file>
+  <factor>2</factor>
+  <transparency>false</transparency>
+</trees>
+
+<third>
+  <file>assets/space/thirdfull.png</file>
+  <factor>2</factor>
+  <transparency>false</transparency>
+</third>
+
+<font name="font">
+  <file>fonts/Oswald-Bold.ttf</file>
+  <size>24</size>
+  <red>255</red>
+  <green>0</green>
+  <blue>0</blue>
+  <alpha>0</alpha>
+</font>
+
+<hudColor name="hudColor">
+  <file>fonts/arial.ttf</file>
+  <size>24</size>
+  <red>0</red>
+  <green>255</green>
+  <blue>0</blue>
+  <alpha>100</alpha>
+</hudColor>
+
+<hudLayout name="hudLayout">
+  <w>250</w>
+  <h>300</h>
+  <xpos>575</xpos>
+  <ypos>20</ypos>
+  <text> Player Controls </text>
+  <right> d -> right </right>
+  <left> a -> left </left>
+  <up> w -> up </up>
+  <down> s -> down </down>
+  <shoot> spacebar -> shoot </shoot>
+</hudLayout>
+
+
+<bulletHud name="bulletCountLayout">
+  <w>200</w>
+  <h>200</h>
+  <xpos>400</xpos>
+  <ypos>20</ypos>
+  <text> Bullet Count </text>
+  <freelist> Bullet List : </freelist>
+  <bulletlist> Free List  : </bulletlist>
+</bulletHud>
+
+<Fighter>
+  <file>assets/beerus.png</file>
+  <startLoc x="200" y="320"/>
+  <bullet>raybeam</bullet>
+  <frames>8</frames>
+  <imageWidth>102</imageWidth>
+  <imageHeight>154</imageHeight>
+  <frameInterval>100</frameInterval>
+  <speedX>200</speedX>
+  <speedY>200</speedY>
+  <transparency>false</transparency>
+  <safeDistance>169</safeDistance>
+  <chunk>
+    <size>9</size>
+    <distance>200</distance>
+  </chunk>
+</Fighter>
+
+
+<FighterRightShoot>
+  <file>assets/RightShootbeerus.png</file>
+  <startLoc x="100" y="250"/>
+  <bullet>raybeam</bullet>
+  <frames>8</frames>
+  <imageWidth>125</imageWidth>
+  <imageHeight>148</imageHeight>
+  <frameInterval>100</frameInterval>
+  <speedX>350</speedX>
+  <speedY>350</speedY>
+  <transparency>false</transparency>
+  <chunk>
+    <size>9</size>
+    <distance>200</distance>
+  </chunk>
+</FighterRightShoot> 
+
+<raybeam>
+  <file>assets/raybeam.png</file>
+  <interval>300</interval>
+  <distance>320</distance>
+  <startLoc x="100" y="100"/>
+  <minSpeedX>200</minSpeedX>
+  <speedX>1000</speedX>
+  <speedY>0</speedY>
+  <strategy>rectangular</strategy>
+  <transparency>true</transparency>
+</raybeam>
+
+<FighterLeft>
+  <file>assets/leftbeerus.png</file>
+  <startLoc x="550" y="320"/>
+  <frames>8</frames>
+  <imageWidth>102</imageWidth>
+  <imageHeight>154</imageHeight>
+  <frameInterval>100</frameInterval>
+  <speedX>200</speedX>
+  <speedY>200</speedY>
+  <transparency>false</transparency>
+  <safeDistance>169</safeDistance>
+  <chunk>
+    <size>9</size>
+    <distance>200</distance>
+  </chunk>
+</FighterLeft>
+
+
+<FighterLeftShoot>
+  <file>assets/LeftShootbeerus.png</file>
+  <startLoc x="100" y="250"/>
+  <bullet>raybeam</bullet>
+  <frames>8</frames>
+  <imageWidth>125</imageWidth>
+  <imageHeight>148</imageHeight>
+  <frameInterval>100</frameInterval>
+  <speedX>350</speedX>
+  <speedY>350</speedY>
+  <transparency>false</transparency>
+  <chunk>
+    <size>9</size>
+    <distance>200</distance>
+  </chunk>
+</FighterLeftShoot> 
+
+<Enemy>
+  <file>assets/vegeta.png</file>
+  <startLoc x="700" y="250"/>
+  <bullet>raybeam</bullet>
+  <frames>3</frames>
+  <imageWidth>106</imageWidth>
+  <imageHeight>151</imageHeight>
+  <frameInterval>100</frameInterval>
+  <speedX>250</speedX>
+  <speedY>250</speedY>
+  <transparency>false</transparency>
+  <safeDistance>169</safeDistance>
+  <chunk>
+    <size>9</size>
+    <distance>200</distance>
+  </chunk>
+</Enemy>
+
+<Goku>
+  <file>assets/goku.png</file>
+  <startLoc x="1100" y="250"/>
+  <bullet>raybeam</bullet>
+  <frames>3</frames>
+  <imageWidth>155</imageWidth>
+  <imageHeight>178</imageHeight>
+  <frameInterval>100</frameInterval>
+  <speedX>250</speedX>
+  <speedY>250</speedY>
+  <transparency>false</transparency>
+  <safeDistance>169</safeDistance>
+  <chunk>
+    <size>9</size>
+    <distance>200</distance>
+  </chunk>
+</Goku>
+
+<Alien>
+  <file>assets/alien.png</file>
+  <startLoc x="450" y="65"/>
+  <frames>4</frames>
+  <imageWidth>90</imageWidth>
+  <imageHeight>78</imageHeight>
+  <frameInterval>50</frameInterval>
+  <speedX>350</speedX>
+  <speedY>250</speedY>
+  <enemies>15</enemies>
+  <safeDistance>169</safeDistance>
+  <transparency>false</transparency>
+   <chunk>
+    <size>9</size>
+    <distance>200</distance>
+  </chunk>
+</Alien>
+
+<AlienLeft>
+  <file>assets/leftalien.png</file>
+  <startLoc x="50" y="140"/>
+  <frames>4</frames>
+  <imageWidth>248</imageWidth>
+  <imageHeight>213</imageHeight>
+  <frameInterval>50</frameInterval>
+  <speedX>300</speedX>
+  <speedY>300</speedY>
+  <transparency>false</transparency>
+</AlienLeft>
+
+<FlyingBird>
+  <file>assets/bird.png</file>
+  <startLoc x="450" y="65"/>
+  <frames>3</frames>
+  <imageWidth>75</imageWidth>
+  <imageHeight>58</imageHeight>
+  <frameInterval>50</frameInterval>
+  <speedX>300</speedX>
+  <speedY>300</speedY>
+  <enemies>4</enemies>
+  <safeDistance>169</safeDistance>
+  <transparency>false</transparency>
+   <chunk>
+    <size>9</size>
+    <distance>150</distance>
+  </chunk>
+</FlyingBird>
+
+
+
+<FlyingBirdLeft>
+  <file>assets/leftbird.png</file>
+  <startLoc x="50" y="140"/>
+  <frames>3</frames>
+  <imageWidth>75</imageWidth>
+  <imageHeight>58</imageHeight>
+  <frameInterval>50</frameInterval>
+  <speedX>250</speedX>
+  <speedY>250</speedY>
+  <transparency>false</transparency>
+</FlyingBirdLeft>
+
+<Asteroid>
+  <file>assets/asteroid.png</file>
+  <startLoc x="64" y="64"/>
+  <imageWidth>75</imageWidth>
+  <imageHeight>58</imageHeight>
+  <speedX>120</speedX>
+  <speedY>120</speedY>
+  <safeDistance>200</safeDistance>
+  <transparency>false</transparency>
+</Asteroid>
+
+
+<Earth>
+  <file>assets/earth.png</file>
+  <startLoc x="2200" y="200"/>
+  <imageWidth>159</imageWidth>
+  <imageHeight>159</imageHeight>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <safeDistance>200</safeDistance>
+  <transparency>false</transparency>
+</Earth>
+
+</GameData>

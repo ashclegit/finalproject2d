@@ -1,0 +1,25 @@
+Name: Ashwin Kumar Vajantri
+
+Course: Data-Driven 2D Game Development
+
+Clemson Email Address: aashwin@clemson.edu
+
+Project no:6
+
+Project due date:12/13/2017
+
+Project description: Playable Game with Restart Functionalities , Sounds and GodMode..
+			References for sprites -
+                        https://www.spriters-resource.com/3ds/dragonballzextremebutoden/
+                        https://www.spriters-resource.com/3ds/dragonballzextremebutoden/sheet/67256/
+  			
+			
+
+			  
+
+
+The easiest part of this project: The advantage of having a predefined framework facilitated the changes easy. 
+
+Game Description -  In This project I have implemented a player who is Beerus who is capable of moving in all directions and shooting . The Game starts with the Beerus music theme. Also the shooting sounds are implemented. The Aliens which appear intially are the first stage enemies. When Beerus comes in contact with the enemies, The Beerus health bar displays , the reduction of health. Also if the chunks of the enemy contacts Beerus, he loses his health. If Beerus is able to kill all the enemies, then Goku , the Super Enemy appears who will not die when collided with Beerus. Goku can only be killed with Bullets. Also Beerus also loses his health if the bullet fired by Goku contacts him. The Game displays the health bar for both and is able to restart. The Conclusion is When Beerus kills Goku. Beerus reaches to God mode when G is pressed and doesnt lose his health when Aliens come in contact to him. The conclusion is Beerus comes in contact with Earth and a Victory Message is displayed.This Games is inspired by the Initial episodes of DragonBallZ. Also the game has some painters Algorithm features which shows Asteroids.
+
+Problems that I had in completing this project: Implementation of the enemy sprite.
